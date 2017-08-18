@@ -1,0 +1,6 @@
+include README.md
+include LICENSE.txt
+include VERSION
+
+include pyairports/data/airport_list.json
+include pyairports/data/other_list.json
