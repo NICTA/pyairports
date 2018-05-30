@@ -18,24 +18,18 @@ setup(
     description="Airport and other locations database",
     long_description=long_description,
 
-    url="https://",
-
-    author="N/A",
-    author_email="N/A",
+    url="https://github.com/NICTA/pyairports",
 
     license="Apache Software License",
 
     classifiers=[
         "Development Status :: 5 - Production/Stable",
-
-        "Intended Audience :: Developers, Data Scientists",
-        "Topic :: Software :: Graph Analysis",
-
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering :: Information Analysis",
         "License :: OSI Approved :: Apache Software License",
-
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
-
     ],
 
     keywords="Airports",
