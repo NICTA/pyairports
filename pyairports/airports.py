@@ -47,6 +47,8 @@ class Airports(object):
 
     @staticmethod
     def _validate(iata):
+        if not isinstance(iata, (str)):
+            raise ValueError("iata must be a string, it is a {0}".format(type(iata)))
         iata = iata.strip().upper()
         if not len(iata) == 3:
             raise ValueError("iata must be three characters")
